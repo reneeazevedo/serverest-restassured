@@ -27,6 +27,7 @@ public class SpecBuilder {
                 .setBaseUri(getInstance().getUrl())
                 .setAccept(ContentType.JSON)
                 .setContentType(ContentType.JSON)
+
                 .build();
 
     }

@@ -2,7 +2,9 @@ package br.com.serverest.api;
 
 import br.com.serverest.utils.ConfigLoader;
 import io.qameta.allure.restassured.AllureRestAssured;
+import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.config.DecoderConfig;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
 import io.restassured.internal.RequestSpecificationImpl;
@@ -27,6 +29,7 @@ public class SpecBuilder {
                 .setBaseUri(getInstance().getUrl())
                 .setAccept(ContentType.JSON)
                 .setContentType(ContentType.JSON)
+                .setConfig(RestAssured.config().decoderConfig(DecoderConfig.decoderConfig().defaultContentCharset("UTF-8")))
                 .build();
 
     }
