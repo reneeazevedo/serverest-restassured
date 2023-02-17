@@ -2,8 +2,9 @@ pipeline {
     agent any
     stages {
         stage('Test') {
+        steps {
             script{
-                steps {
+
                 try{
                    bat 'mvn clean test'
                 }catch(Exception e) {
