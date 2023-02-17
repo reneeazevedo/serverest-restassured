@@ -8,6 +8,7 @@ pipeline {
         }
         stage('Allure Report') {
             steps {
+                bat 'mvn allure:serve'
                 allure results: [[path: 'target\\allure-results']]
         }
     }
