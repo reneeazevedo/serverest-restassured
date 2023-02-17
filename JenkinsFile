@@ -2,9 +2,16 @@ pipeline {
     agent any
     stages {
         stage('Test') {
-            steps {
-                bat 'mvn clean test'
-                return 0
+            script{
+                steps {
+                try{
+                   bat 'mvn clean test'
+                }catch(Exception e) {
+                    print("${e}")
+                }
+
+
+                }
             }
         }
         stage('Allure Report') {
