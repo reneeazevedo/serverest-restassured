@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build and Test') {
             steps {
-                bat 'mvn clean'
+                bat 'mvn clean test'
             }
         }
         stage('Allure Report') {
