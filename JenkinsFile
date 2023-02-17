@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Build and Test') {
             steps {
-                sh 'mvn clean'
+                bat 'mvn clean'
             }
         }
         stage('Allure Report') {
             steps {
-                sh 'allure generate target/surefire-reports --clean -o target/allure-report'
+                bat 'allure generate target/surefire-reports --clean -o target/allure-report'
                 allure includeProperties: false, jdk: '', properties: [], reportBuildPolicy: 'ALWAYS', results: [[path: 'target/allure-report']]
         }
     }
