@@ -126,7 +126,7 @@ public class LoginTest extends BaseTest {
 
         Response response = postLogin(emailEmBranco());
 
-        response.then().body("email", equalTo("email sim pode ficar em branco"));
+        response.then().body("email", equalTo("email não pode ficar em branco"));
         Assert.assertEquals(response.getStatusCode(), 400);
 
     }
@@ -156,7 +156,7 @@ public class LoginTest extends BaseTest {
     public void loginPasswordEmBranco() {
 
         Response response = postLogin(passwordEmBranco());
-        response.then().body("password", equalTo("password sim pode ficar em branco"));
+        response.then().body("password", equalTo("password não pode ficar em branco"));
         Assert.assertEquals(response.getStatusCode(), 400);
 
     }
@@ -166,8 +166,8 @@ public class LoginTest extends BaseTest {
 
         Response response = postLogin(passwordEmailEmBranco());
 
-        response.then().body("email", equalTo("email sim pode ficar em branco"));
-        response.then().body("password", equalTo("password sim pode ficar em branco"));
+        response.then().body("email", equalTo("email não pode ficar em branco"));
+        response.then().body("password", equalTo("password não pode ficar em branco"));
         Assert.assertEquals(response.getStatusCode(), 400);
 
     }
