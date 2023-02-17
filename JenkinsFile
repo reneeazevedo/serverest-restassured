@@ -8,7 +8,6 @@ pipeline {
         }
         stage('Allure Report') {
             steps {
-                bat 'mvn allure:serve target/allure-report'
                 allure includeProperties: false, jdk: '', properties: [], reportBuildPolicy: 'ALWAYS', results: [[path: 'target/allure-report']]
         }
     }
