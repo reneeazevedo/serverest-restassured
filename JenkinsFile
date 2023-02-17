@@ -2,16 +2,13 @@ pipeline {
     agent any
     stages {
         stage('Test') {
-        steps {
-            script{
-
-                try{
-                   bat 'mvn clean test'
-                }catch(Exception e) {
-                    print("${e}")
-                }
-
-
+            steps {
+                script{
+                    try{
+                        bat 'mvn clean test'
+                    }catch(Exception e) {
+                        print("${e}")
+                    }
                 }
             }
         }
