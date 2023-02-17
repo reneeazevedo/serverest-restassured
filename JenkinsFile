@@ -4,6 +4,7 @@ pipeline {
         stage('Test') {
             steps {
                 bat 'mvn clean test'
+                return 0
             }
         }
         stage('Allure Report') {
