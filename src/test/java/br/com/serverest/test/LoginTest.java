@@ -182,13 +182,14 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
-    public void loginEmailPasswordIncorreto() {
+    public void loginEmailPasswordIncorreto() throws UnsupportedEncodingException {
+        String msgEmailOuSenhaInvalidos ="Email e/ou senha inválidos";
 
         Response response = postLogin(emailPasswordIncorreto());
         Assert.assertEquals(response.getStatusCode(), 401);
         LoginErrorMessage loginErrorMessage = response.as(LoginErrorMessage.class);
 
-        Assert.assertEquals(loginErrorMessage.getMessage(), "Email e/ou senha inválidos");
+        Assert.assertEquals(loginErrorMessage.getMessage(), getNormalizerString(msgEmailOuSenhaInvalidos));
 
 
     }
