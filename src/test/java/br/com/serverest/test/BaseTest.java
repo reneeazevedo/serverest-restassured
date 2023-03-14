@@ -19,6 +19,7 @@ public class BaseTest {
 
 
         RestAssured.requestSpecification = getRequestSpec();
+        RestAssured.responseSpecification =getResponseSpec();
 
 
     }

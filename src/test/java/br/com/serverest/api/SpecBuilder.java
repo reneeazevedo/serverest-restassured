@@ -4,13 +4,16 @@ import br.com.serverest.utils.ConfigLoader;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.config.DecoderConfig;
 import io.restassured.config.EncoderConfig;
 import io.restassured.config.RestAssuredConfig;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
 import io.restassured.internal.RequestSpecificationImpl;
+import io.restassured.parsing.Parser;
 import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
 
 import java.nio.charset.StandardCharsets;
 
@@ -37,6 +40,12 @@ public class SpecBuilder {
                 .setContentType(ContentType.JSON)
                 .setConfig(RestAssuredConfig.config().encoderConfig(EncoderConfig.encoderConfig().appendDefaultContentCharsetToContentTypeIfUndefined(false)))
                 //.setConfig(RestAssured.config().decoderConfig(DecoderConfig.decoderConfig().defaultContentCharset("ISO-8859-1")))
+                .build();
+
+    }
+    public static ResponseSpecification getResponseSpec(){
+        return new ResponseSpecBuilder()
+                .setDefaultParser(Parser.JSON)
                 .build();
 
     }
