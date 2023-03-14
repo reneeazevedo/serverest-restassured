@@ -10,9 +10,13 @@ import io.restassured.http.ContentType;
 import io.restassured.internal.RequestSpecificationImpl;
 import io.restassured.specification.RequestSpecification;
 
+import java.nio.charset.StandardCharsets;
+
 import static br.com.serverest.api.Routes.LOGIN;
 import static br.com.serverest.utils.ConfigLoader.*;
 import static io.restassured.RestAssured.given;
+import static io.restassured.config.EncoderConfig.encoderConfig;
+import static io.restassured.config.RestAssuredConfig.newConfig;
 
 public class SpecBuilder {
     public static String getToken(){
@@ -29,7 +33,8 @@ public class SpecBuilder {
                 .setBaseUri(getInstance().getUrl())
                 .setAccept(ContentType.JSON)
                 .setContentType(ContentType.JSON)
-                .setConfig(RestAssured.config().decoderConfig(DecoderConfig.decoderConfig().defaultContentCharset("ISO-8859-1")))
+                .setConfig(newConfig().encoderConfig(encoderConfig().defaultContentCharset(StandardCharsets.UTF_8)))
+                //.setConfig(RestAssured.config().decoderConfig(DecoderConfig.decoderConfig().defaultContentCharset("ISO-8859-1")))
                 .build();
 
     }
