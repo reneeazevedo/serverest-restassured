@@ -29,7 +29,7 @@ public class SpecBuilder {
                 .setBaseUri(getInstance().getUrl())
                 .setAccept(ContentType.JSON)
                 .setContentType(ContentType.JSON)
-                .setConfig(RestAssured.config().decoderConfig(DecoderConfig.decoderConfig().defaultContentCharset("UTF-8")))
+                .setConfig(RestAssured.config().decoderConfig(DecoderConfig.decoderConfig().defaultContentCharset("UTF-16")))
                 .build();
 
     }
