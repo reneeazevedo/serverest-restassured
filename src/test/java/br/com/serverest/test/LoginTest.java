@@ -17,6 +17,7 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.Normalizer;
 
 import static br.com.serverest.api.ServeRest.*;
 import static br.com.serverest.factories.LoginFactory.*;
@@ -123,10 +124,10 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void loginEmailIgualEmBranco() {
-
+        String msg = "email não pode ficar em branco";
         Response response = postLogin(emailEmBranco());
 
-        response.then().body("email", equalTo("email não pode ficar em branco"));
+        response.then().body("email", equalTo(msg));
         Assert.assertEquals(response.getStatusCode(), 400);
 
     }
@@ -143,31 +144,35 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void loginEmailEPasswordIgualNull() {
+        String msgEmailNull ="email deve ser uma string";
+        String msgPasswordNull ="password deve ser uma string";
 
         Response response = postLogin(emailPasswordIgualNull());
 
-        response.then().body("email", equalTo("email deve ser uma string"));
-        response.then().body("password", equalTo("password deve ser uma string"));
+        response.then().body("email", equalTo(msgEmailNull));
+        response.then().body("password", equalTo(msgPasswordNull));
         Assert.assertEquals(response.getStatusCode(), 400);
 
     }
 
     @Test
     public void loginPasswordEmBranco() {
-
+        String msgPasswordEmBranco ="password não pode ficar em branco";
         Response response = postLogin(passwordEmBranco());
-        response.then().body("password", equalTo("password não pode ficar em branco"));
+        response.then().body("password", equalTo(msgPasswordEmBranco));
         Assert.assertEquals(response.getStatusCode(), 400);
 
     }
 
     @Test
     public void loginEmailEPasswordEmBranco() {
+        String msgEmaildEmBranco ="email não pode ficar em branco";
+        String msgPasswordEmBranco ="password não pode ficar em branco";
 
         Response response = postLogin(passwordEmailEmBranco());
 
-        response.then().body("email", equalTo("email não pode ficar em branco"));
-        response.then().body("password", equalTo("password não pode ficar em branco"));
+        response.then().body("email", equalTo(msgEmaildEmBranco));
+        response.then().body("password", equalTo(msgPasswordEmBranco));
         Assert.assertEquals(response.getStatusCode(), 400);
 
     }
