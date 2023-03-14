@@ -84,7 +84,7 @@ public class ProdutosTest extends BaseTest {
 
         for (ProdutosResponse produto:produtos
              ) {
-            System.out.println("id: " + produto._id + " Nome: " +produto.nome+ "" +produto.descricao+ " Preço: " +produto.preco+ " Imagem: " +produto);
+            System.out.println("id: " + produto._id + " Nome: " +produto.nome+ "" +produto.descricao+ " Preço: " +produto.preco+ " Imagem: " +produto.imagem);
 
         }
 
