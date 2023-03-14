@@ -5,6 +5,8 @@ import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.config.DecoderConfig;
+import io.restassured.config.EncoderConfig;
+import io.restassured.config.RestAssuredConfig;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
 import io.restassured.internal.RequestSpecificationImpl;
@@ -33,7 +35,8 @@ public class SpecBuilder {
                 .setBaseUri(getInstance().getUrl())
                 .setAccept(ContentType.JSON)
                 .setContentType(ContentType.JSON)
-                .setConfig(newConfig().decoderConfig(DecoderConfig.decoderConfig().defaultContentCharset(StandardCharsets.ISO_8859_1)))
+                .setConfig(RestAssuredConfig.config().encoderConfig(EncoderConfig.encoderConfig().appendDefaultContentCharsetToContentTypeIfUndefined(false)))
+                //.setConfig(newConfig().decoderConfig(DecoderConfig.decoderConfig().defaultContentCharset(StandardCharsets.ISO_8859_1)))
                 //.setConfig(RestAssured.config().decoderConfig(DecoderConfig.decoderConfig().defaultContentCharset("ISO-8859-1")))
                 .build();
 
