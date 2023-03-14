@@ -19,6 +19,7 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.text.Normalizer;
 
 import static br.com.serverest.api.ServeRest.*;
@@ -126,7 +127,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
-    public void loginEmailIgualEmBranco() {
+    public void loginEmailIgualEmBranco() throws UnsupportedEncodingException {
         String msg = "email não pode ficar em branco";
         Response response = postLogin(emailEmBranco());
 
@@ -159,7 +160,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
-    public void loginPasswordEmBranco() {
+    public void loginPasswordEmBranco() throws UnsupportedEncodingException {
         String msgPasswordEmBranco ="password não pode ficar em branco";
         Response response = postLogin(passwordEmBranco());
         response.then().body("password", equalTo((getNormalizerString(msgPasswordEmBranco))));
@@ -168,7 +169,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
-    public void loginEmailEPasswordEmBranco() {
+    public void loginEmailEPasswordEmBranco() throws UnsupportedEncodingException {
         String msgEmaildEmBranco ="email não pode ficar em branco";
         String msgPasswordEmBranco ="password não pode ficar em branco";
 
