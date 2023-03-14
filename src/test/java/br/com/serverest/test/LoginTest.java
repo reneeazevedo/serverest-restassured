@@ -6,8 +6,10 @@ import br.com.serverest.pojos.responses.LoginError;
 import br.com.serverest.pojos.responses.LoginErrorMessage;
 import br.com.serverest.pojos.responses.LoginResponseSuccess;
 import br.com.serverest.utils.ExcelReader;
+import br.com.serverest.utils.NormalizerString;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.google.common.base.Utf8;
 import com.google.gson.Gson;
 import io.restassured.response.Response;
 import org.json.JSONObject;
@@ -22,6 +24,7 @@ import java.text.Normalizer;
 import static br.com.serverest.api.ServeRest.*;
 import static br.com.serverest.factories.LoginFactory.*;
 import static br.com.serverest.utils.JsonReader.*;
+import static br.com.serverest.utils.NormalizerString.*;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.CoreMatchers.equalTo;
 
@@ -127,7 +130,7 @@ public class LoginTest extends BaseTest {
         String msg = "email não pode ficar em branco";
         Response response = postLogin(emailEmBranco());
 
-        response.then().body("email", equalTo(msg));
+        response.then().body("email", equalTo(getNormalizerString(msg)));
         Assert.assertEquals(response.getStatusCode(), 400);
 
     }
@@ -159,7 +162,7 @@ public class LoginTest extends BaseTest {
     public void loginPasswordEmBranco() {
         String msgPasswordEmBranco ="password não pode ficar em branco";
         Response response = postLogin(passwordEmBranco());
-        response.then().body("password", equalTo(msgPasswordEmBranco));
+        response.then().body("password", equalTo((getNormalizerString(msgPasswordEmBranco))));
         Assert.assertEquals(response.getStatusCode(), 400);
 
     }
@@ -171,8 +174,8 @@ public class LoginTest extends BaseTest {
 
         Response response = postLogin(passwordEmailEmBranco());
 
-        response.then().body("email", equalTo(msgEmaildEmBranco));
-        response.then().body("password", equalTo(msgPasswordEmBranco));
+        response.then().body("email", equalTo(getNormalizerString(msgEmaildEmBranco)));
+        response.then().body("password", equalTo(getNormalizerString(msgPasswordEmBranco)));
         Assert.assertEquals(response.getStatusCode(), 400);
 
     }
