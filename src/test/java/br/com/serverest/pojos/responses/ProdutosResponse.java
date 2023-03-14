@@ -15,5 +15,5 @@ public class ProdutosResponse {
     public int quantidade;
     public String descricao;
     public String _id;
-   // public String imagem;
+    public String imagem;
 }
