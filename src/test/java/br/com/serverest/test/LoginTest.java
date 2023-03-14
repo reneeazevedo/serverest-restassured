@@ -187,7 +187,7 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals(response.getStatusCode(), 401);
         LoginErrorMessage loginErrorMessage = response.as(LoginErrorMessage.class);
 
-        Assert.assertEquals(loginErrorMessage.getMessage(), "Email e/ou senha inválidos");
+        Assert.assertEquals(loginErrorMessage.getMessage(), "Email e/ou senha inválidos2");
 
 
     }
