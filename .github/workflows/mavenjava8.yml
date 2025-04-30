@@ -19,6 +19,8 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
         cache: maven
+    - name: Install Allure CLI
+      run: sudo npm install -g allure-commandline --unsafe-perm=true
     - name: Build with Maven
       run: mvn -B package --file pom.xml
       
