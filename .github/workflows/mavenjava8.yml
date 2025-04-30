@@ -31,7 +31,7 @@ jobs:
       run: mvn -B package --file pom.xml
       
     - name: Run Test
-      run: mvn clean test
+      run: ${{github.event.inputs.cli}}
 
     - name: Generate Allure Report
       run: |
