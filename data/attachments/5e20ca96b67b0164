@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 0bca321d3d4016e79165a2bb15379a54
+date: Wed, 30 Apr 2025 18:02:32 GMT
+server: Google Frontend
+Content-Length: 265
+
+{
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzQ2MDM2MTUyLCJleHAiOjE3NDYwMzY3NTJ9.XS-fKisDZ7ohq_H6bHbOGVYw24oBfaaTsRrm2mjwBZ8"
+}

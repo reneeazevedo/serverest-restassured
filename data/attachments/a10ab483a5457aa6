@@ -1,0 +1,102 @@
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: d4315d555b8c062da793d5c4b3ff41c1
+date: Wed, 30 Apr 2025 18:02:34 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "xbueOAJyGmpuiumN"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: d4315d555b8c062da793d5c4b3ff41c1
+date: Wed, 30 Apr 2025 18:02:34 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "xbueOAJyGmpuiumN"
+}
+Request method:	GET
+Request URI:	https://serverest.dev/produtos/xbueOAJyGmpuiumN
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	_id=xbueOAJyGmpuiumN
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://serverest.dev/produtos/xbueOAJyGmpuiumN
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	_id=xbueOAJyGmpuiumN
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: d5203d684d9173e63998b929269a81f6
+date: Wed, 30 Apr 2025 18:02:34 GMT
+server: Google Frontend
+Content-Length: 189
+
+{
+    "nome": "Sleek Leather Plate",
+    "preco": 111,
+    "descricao": "Descrição do Produto: Cor: yellow Departamento: Industrial",
+    "quantidade": 24,
+    "_id": "xbueOAJyGmpuiumN"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: d5203d684d9173e63998b929269a81f6
+date: Wed, 30 Apr 2025 18:02:34 GMT
+server: Google Frontend
+Content-Length: 189
+
+{
+    "nome": "Sleek Leather Plate",
+    "preco": 111,
+    "descricao": "Descrição do Produto: Cor: yellow Departamento: Industrial",
+    "quantidade": 24,
+    "_id": "xbueOAJyGmpuiumN"
+}
