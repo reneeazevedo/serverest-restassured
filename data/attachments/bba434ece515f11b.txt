@@ -1,0 +1,66 @@
+Request method:	GET
+Request URI:	https://serverest.dev/produtos/1r3cxeIfhcFVDcSq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	_id=1r3cxeIfhcFVDcSq
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://serverest.dev/produtos/1r3cxeIfhcFVDcSq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	_id=1r3cxeIfhcFVDcSq
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 866ace479a7d8628deca8389f9d13afe
+date: Wed, 30 Apr 2025 18:04:04 GMT
+server: Google Frontend
+Content-Length: 187
+
+{
+    "nome": "Synergistic Linen Gloves",
+    "preco": 523,
+    "descricao": "Descrição do Produto: Cor: tan Departamento: Health",
+    "quantidade": 41,
+    "_id": "1r3cxeIfhcFVDcSq"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 866ace479a7d8628deca8389f9d13afe
+date: Wed, 30 Apr 2025 18:04:04 GMT
+server: Google Frontend
+Content-Length: 187
+
+{
+    "nome": "Synergistic Linen Gloves",
+    "preco": 523,
+    "descricao": "Descrição do Produto: Cor: tan Departamento: Health",
+    "quantidade": 41,
+    "_id": "1r3cxeIfhcFVDcSq"
+}

@@ -1,0 +1,102 @@
+Request method:	POST
+Request URI:	https://serverest.dev/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "fulano@qa.com",
+    "password": "teste"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "fulano@qa.com",
+    "password": "teste"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "fulano@qa.com",
+    "password": "teste"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: f5e602fa46f9fd1b9d8efac90619eab9
+date: Wed, 30 Apr 2025 18:04:02 GMT
+server: Google Frontend
+Content-Length: 265
+
+{
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzQ2MDM2MjQyLCJleHAiOjE3NDYwMzY4NDJ9.Uh36iLJonN_AxeM4pgTlqMsFthhFC1dkGphSfUQZUys"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 79ce9f762b612ddd0827c3114bd70da4
+date: Wed, 30 Apr 2025 18:04:02 GMT
+server: Google Frontend
+Content-Length: 265
+
+{
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzQ2MDM2MjQyLCJleHAiOjE3NDYwMzY4NDJ9.Uh36iLJonN_AxeM4pgTlqMsFthhFC1dkGphSfUQZUys"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 19202f543aa5137c85f30b187491c15f
+date: Wed, 30 Apr 2025 18:04:02 GMT
+server: Google Frontend
+Content-Length: 265
+
+{
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzQ2MDM2MjQyLCJleHAiOjE3NDYwMzY4NDJ9.Uh36iLJonN_AxeM4pgTlqMsFthhFC1dkGphSfUQZUys"
+}
