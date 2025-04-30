@@ -1,6 +1,11 @@
 name: Java CI with Maven
 
 on:
+  workflow_dispatch:
+    inputs:
+      cli:
+        description: Run Tests by maven comand line
+        default: mvn clean test
   push:
     branches: [ "master" ]
   pull_request:
