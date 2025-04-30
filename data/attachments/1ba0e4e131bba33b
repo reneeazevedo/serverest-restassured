@@ -1,0 +1,36 @@
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 46b08886dd3504d9c47b7cb23ef40813
+date: Wed, 30 Apr 2025 18:08:45 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "DOjzTTu2ySPvOXzf"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 46b08886dd3504d9c47b7cb23ef40813
+date: Wed, 30 Apr 2025 18:08:45 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "DOjzTTu2ySPvOXzf"
+}

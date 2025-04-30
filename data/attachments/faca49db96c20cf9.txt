@@ -1,0 +1,216 @@
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Mrs. Alvina Carter",
+    "email": "brittney.bradtke@gmail.com",
+    "password": "c%ZM!!1",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Miss Evelin McGlynn",
+    "email": "charissa.leffler@hotmail.com",
+    "password": "%5P2we",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Mrs. Alvina Carter",
+    "email": "brittney.bradtke@gmail.com",
+    "password": "c%ZM!!1",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Mrs. Alvina Carter",
+    "email": "brittney.bradtke@gmail.com",
+    "password": "c%ZM!!1",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Miss Evelin McGlynn",
+    "email": "charissa.leffler@hotmail.com",
+    "password": "%5P2we",
+    "administrador": "true"
+}
+Request method:	POST
+Request URI:	https://serverest.dev/usuarios
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "nome": "Miss Evelin McGlynn",
+    "email": "charissa.leffler@hotmail.com",
+    "password": "%5P2we",
+    "administrador": "true"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: cc31ff20089e87cc592fcbad38167deb
+date: Wed, 30 Apr 2025 18:08:46 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "L4NiTbw6gQI9AXOb"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: cc31ff20089e87cc592fcbad38167deb
+date: Wed, 30 Apr 2025 18:08:46 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "L4NiTbw6gQI9AXOb"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: cc31ff20089e87cc592fcbad38167deb
+date: Wed, 30 Apr 2025 18:08:46 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "L4NiTbw6gQI9AXOb"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: f1d4043e947b4fac1b9777c73b0e4ff4
+date: Wed, 30 Apr 2025 18:08:46 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "q1bpTHeQV3wp8ijT"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: f1d4043e947b4fac1b9777c73b0e4ff4
+date: Wed, 30 Apr 2025 18:08:46 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "q1bpTHeQV3wp8ijT"
+}
+HTTP/1.1 201 Created
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: f1d4043e947b4fac1b9777c73b0e4ff4
+date: Wed, 30 Apr 2025 18:08:46 GMT
+server: Google Frontend
+Content-Length: 82
+
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "q1bpTHeQV3wp8ijT"
+}

@@ -1,0 +1,66 @@
+Request method:	GET
+Request URI:	https://serverest.dev/produtos/ZREvCxFcmyP1tV5D
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	_id=ZREvCxFcmyP1tV5D
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://serverest.dev/produtos/ZREvCxFcmyP1tV5D
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	_id=ZREvCxFcmyP1tV5D
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 3aae05b23e149cf0a021d62f04203f1c
+date: Wed, 30 Apr 2025 18:08:45 GMT
+server: Google Frontend
+Content-Length: 207
+
+{
+    "nome": "Incredible Wooden Shirt",
+    "preco": 367,
+    "descricao": "Descrição do Produto: Cor: purple Departamento: Baby, Computers & Garden",
+    "quantidade": 70,
+    "_id": "ZREvCxFcmyP1tV5D"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-type: application/json; charset=utf-8
+x-cloud-trace-context: 3aae05b23e149cf0a021d62f04203f1c
+date: Wed, 30 Apr 2025 18:08:45 GMT
+server: Google Frontend
+Content-Length: 207
+
+{
+    "nome": "Incredible Wooden Shirt",
+    "preco": 367,
+    "descricao": "Descrição do Produto: Cor: purple Departamento: Baby, Computers & Garden",
+    "quantidade": 70,
+    "_id": "ZREvCxFcmyP1tV5D"
+}
